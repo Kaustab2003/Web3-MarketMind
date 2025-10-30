@@ -121,6 +121,10 @@ The app uses a custom theme defined in `.streamlit/config.toml`:
 - Background: Dark (#1a1a2e)
 - Secondary Background: Navy (#16213e)
 
+## Demo 
+- [link](https://web3-marketmind-ubwh5vryrh5xffah7a5p2x.streamlit.app/)
+  
+
 ## 📊 Data Sources
 
 - **CoinGecko API** - Primary source for cryptocurrency price data
