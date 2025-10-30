@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: web3-marketmind
+    env: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run app_v4.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: DEMO_PASSWORD
+        sync: false
+      - key: ADMIN_PASSWORD
+        sync: false
+
