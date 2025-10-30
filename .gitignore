@@ -36,9 +36,15 @@ ENV/
 models/*.joblib
 models/*.pkl
 
-# Data (optional - uncomment if you don't want to track data)
-# csv_files/*.csv
-# data/*.csv
+# Data files
+csv_files/*.csv
+data/*.csv
+*.csv
+sample_*.csv
+
+# Generated files
+generate_hashes.py
+create_sample_csv.py
 
 # IDE
 .vscode/
